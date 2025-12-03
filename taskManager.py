@@ -30,7 +30,7 @@ class TaskManager:
                     if len(parts) == 2:
                         name = parts[0].strip()
                         description = parts[1].strip()
-                        # Добавляем напрямую в список
+
                         self.tasks.append({
                             'name': name,
                             'description': description
